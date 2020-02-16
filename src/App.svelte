@@ -56,8 +56,10 @@
 </Container>
 
 <style>
-	:global(body, html) {
+	:global(*) {
 		box-sizing: border-box;
+	}
+	:global(body, html) {
 		margin: 0;
 		height: 100vh;
 		overflow: hidden;
